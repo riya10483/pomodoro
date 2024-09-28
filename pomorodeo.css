@@ -1,2 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.title {
+    font-family: "Rye", serif;
+    font-size: 100px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
