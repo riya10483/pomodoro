@@ -4,6 +4,17 @@
     font-weight: 400;
     font-style: normal;
     text-align: center;
+    padding-top: 0;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.heading {
+    font-family: "Peralta", serif;
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
 }
 
 .paragraph {
