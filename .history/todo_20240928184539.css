@@ -1,0 +1,15 @@
+* {
+    background-color:burlywood;
+}
+#header {
+    color:white;
+    padding: 30px;
+    background-color:rgb(50, 4, 4);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+li {
+    text-decoration: line-through;
+}

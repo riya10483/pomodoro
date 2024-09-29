@@ -1,0 +1,16 @@
+* {
+    background-color:burlywood;
+}
+#header {
+    color:rgb(247, 226, 198);
+    padding: 30px;
+    background-color:rgb(50, 4, 4);
+    text-align: center;
+    font-family: Rye;
+    font-size: 30px;
+}
+
+li {
+    text-decoration: line-through;
+    font-size: ;
+}

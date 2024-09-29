@@ -1,5 +1,5 @@
 * {
-    background-color:burlywood;
+    background-color
 }
 .title {
     font-family: "Rye", serif;
@@ -11,8 +11,6 @@
     padding-bottom: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    background-color:rgb(50, 4, 4);
-    color: rgb(247, 226, 198);
 }
 
 .heading {
