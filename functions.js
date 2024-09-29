@@ -97,6 +97,9 @@ function chooseTime() {
         //const timerElement = document.getElementById('interval');
         startTiming = minutes;
         //interval.textContent = formatTime(minutes, seconds);
-        updateTimer();
+        startTimer();
+    }
+    else {
+        alert("Please enter a valid positive number.");
     }
 }
