@@ -229,6 +229,13 @@ body{
     padding-bottom: 10px;
     width: 150px;
     height: 75px;
+
+    font-family: "Peralta", serif;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+    width: auto;
 }
 
 #time2 {
