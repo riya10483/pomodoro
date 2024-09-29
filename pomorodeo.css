@@ -192,14 +192,16 @@ body{
     transform: rotate(-5deg);
 }
 
-#submit1 {
-    margin-left: -20px;
-    margin-top: -60px;
+#submit {
+    margin-left: 250px;
+    margin-top: 60px;
     margin-bottom: 0;
     padding-bottom: 0;
-    transform: rotate(-5deg);
+    /* transform: rotate(-5deg); */
     border: none;
     padding-bottom: 10px;
+    width: 150px;
+    height: 75px;
 }
 
 #time2 {
@@ -211,13 +213,13 @@ body{
     transform: rotate(5deg);
 }
 
-#submit2 {
+/* #submit2 {
     margin-left: -20px;
     margin-top: 0px;
     transform: rotate(5deg);
     border: none;
     padding-bottom: 10px;
-}
+} */
 
 #time3 {
     margin-left: 150px;
@@ -228,10 +230,10 @@ body{
     transform: rotate(5deg);
 }
 
-#submit3 {
+/* #submit3 {
     margin-left: -20px;
     margin-top: -40px;
     transform: rotate(5deg);
     border: none;
     padding-bottom: 10px;
-}
+} */
