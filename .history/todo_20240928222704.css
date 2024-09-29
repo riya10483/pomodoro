@@ -1,0 +1,80 @@
+* {
+    background-color:burlywood;
+    border: 0px;
+    margin: 0px;
+    font-family: "Shadows Into Light";
+    font-size: 30px;
+}
+#header {
+    color:rgb(247, 226, 198);
+    padding: 10px;
+    background-color:rgb(50, 4, 4);
+    text-align: center;
+    font-family: Rye;
+    font-size: 70px;
+    border: 0px;
+    margin: 0px 0px 30px;
+}
+
+li {
+    font-size: 30px;
+    font-family: "Shadows Into Light";
+    list-style: none;
+}
+
+input {
+    width: 30px;
+    height: 30px;
+    margin: 15px 30px;
+}
+
+/* Hide the default checkbox */
+input[type="checkbox"] {
+    display: none;
+}
+
+/* Create a custom checkbox appearance */
+input[type="checkbox"] + label:before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 2px solid #000;
+    border-radius: 3px;
+    background-color: white;
+    vertical-align: middle;
+}
+
+/* Change appearance when checkbox is checked */
+input[type="checkbox"]:checked + label:before {
+    background-color: rgb(50, 4, 4);
+    border-color: rgb(50, 4, 4);
+    content: '✓';
+    color: rgb(247, 226, 198);
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+/* Strike-through on label text when checkbox is checked */
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: rgb(176, 141, 94);
+}
+
+#newItemText {
+    width: 100%;
+    font-size: 20px;
+    margin-left: 75px;
+    color: rgb(50, 4, 4);
+}
+
+button {
+    background-color: rgb(50, 4, 4);
+    color: rgb(247, 226, 198);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 30px;
+}
