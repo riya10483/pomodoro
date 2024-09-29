@@ -143,43 +143,6 @@ button {
     margin-bottom: 0;
 } 
 
-/*.sign-labels {
-    font-family: "Rye", serif;
-    color: rgb(247, 226, 198);
-    font-size: 35px;
-    text-align: left;
-    margin-top: -830px;
-    margin-left: 145px;
-    margin-right: 0px;
-    padding-right: 0px;
-}
-
-.focus-session {
-    font-family: "Rye", serif;
-    font-size: 35px;
-    background-color: transparent;
-    transform: rotate(-5deg);
-}
-
-.long-break {
-    font-family: "Rye", serif;
-    font-size: 35px;
-    background-color: transparent;
-    transform: rotate(5deg);
-    margin-top: 60px;
-    margin-left: -20px;
-    margin-right: 0px;
-    padding-right: 0px;
-}
-
-.short-break {
-    font-family: "Rye", serif;
-    font-size: 35px;
-    background-color: transparent;
-    transform: rotate(5deg);
-    margin-top: -10px;
-}*/
-
 body{
     background-image: url(blurbackground.png);
     background-repeat: no-repeat;
