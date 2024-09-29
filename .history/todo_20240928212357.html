@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Peralta&family=Rye&display=swap');
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div id="header">Things To Do</div>
+    <ul id="checklist">
+        <li><input type="checkbox" onclick="strikeThrough(this)><label for="item1">Study for math exam</label></li>
+        <li><input type="checkbox" onclick="strikeThrough(this)">Do physics homework</li>
+        <li><input type="checkbox" onclick="strikeThrough(this)">Add more items to the list</li>
+    </ul>
+</body>
+<script src="functions.js"></script>
+</html>
