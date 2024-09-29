@@ -57,6 +57,10 @@ input[type="checkbox"]:checked + label:before {
     line-height: 20px;
 }
 
+#checklist {
+    background-color:rgb(247, 226, 198);
+}
+
 /* Strike-through on label text when checkbox is checked */
 input[type="checkbox"]:checked + label {
     text-decoration: line-through;
@@ -147,8 +151,9 @@ button {
     font-size: 10em;
     font-family: Rye;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 150px;
     margin-top: 250px;
+    margin-bottom: 0px;
 }
 
 .image-and-text {
@@ -166,8 +171,8 @@ body{
 }
 
 .control-buttons { 
-    margin-left: 800px; 
-    margin-top: -200px;
+    margin-left: 900px; 
+    margin-top: -440px;
     margin-bottom: 300px; 
     justify-content: space-evenly; 
 } 
@@ -230,10 +235,20 @@ body{
     transform: rotate(5deg);
 }
 
-/* #submit3 {
+#submit3 {
     margin-left: -20px;
     margin-top: -40px;
     transform: rotate(5deg);
     border: none;
     padding-bottom: 10px;
-} */
+}
+
+#sign-behind-clock {
+    /*margin-left: 700px;
+    margin-top: -2000px;
+    padding-top: 0px;*/
+    position: absolute;
+    top: 650px;
+    left: 700px;
+    z-index: -1;
+}
