@@ -1,0 +1,157 @@
+* {
+    background-color:burlywood;
+    border: 0px;
+    margin: 0px;
+    font-family: "Shadows Into Light";
+    font-size: 30px;
+}
+#todo {
+    color:rgb(247, 226, 198);
+    padding: 10px;
+    background-color:rgb(50, 4, 4);
+    text-align: center;
+    font-family: Rye;
+    font-size: 70px;
+    border: 0px;
+    margin: 200px 0px 10px;
+}
+
+li {
+    font-size: 30px;
+    font-family: "Shadows Into Light";
+    list-style: none;
+}
+
+input {
+    width: 30px;
+    height: 30px;
+    margin: 15px 30px;
+}
+
+/* Hide the default checkbox */
+input[type="checkbox"] {
+    display: none;
+}
+
+/* Create a custom checkbox appearance */
+input[type="checkbox"] + label:before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 2px solid #000;
+    border-radius: 3px;
+    background-color: white;
+    vertical-align: middle;
+}
+
+/* Change appearance when checkbox is checked */
+input[type="checkbox"]:checked + label:before {
+    background-color: rgb(50, 4, 4);
+    border-color: rgb(50, 4, 4);
+    content: '✓';
+    color: rgb(247, 226, 198);
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+/* Strike-through on label text when checkbox is checked */
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: rgb(176, 141, 94);
+}
+
+#newItemText {
+    width: 50%;
+    font-size: 20px;
+    margin-left: 75px;
+    color: rgb(50, 4, 4);
+}
+
+button {
+    background-color: rgb(50, 4, 4);
+    color: rgb(247, 226, 198);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 30px;
+}
+.title {
+    font-family: "Rye", serif;
+    font-size: 100px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:rgb(50, 4, 4);
+    color: rgb(247, 226, 198);
+}
+
+.heading {
+    font-family: "Peralta", serif;
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.paragraph {
+    font-family: "Shadows Into Light", serif;
+    font-size: 40px;
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.timer_border{
+    width: 320px;
+  height: 50px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+
+
+#timer {
+    font-size: 50px;
+    font-family: Rye;
+    text-align: center;
+    margin: auto;
+}
+
+.image-and-text {
+    display: flex;
+    align-items: left;
+    margin-bottom: 0;
+} 
+
+.sign-labels {
+    font-family: "Rye", serif;
+    color: rgb(247, 226, 198);
+    font-size: 35px;
+    text-align: left;
+    margin-top: -830px;
+    margin-left: 145px;
+}
+
+.focus-session {
+    background-color: transparent;
+    transform: rotate(-5deg);
+}
+
+.long-break {
+    background-color: transparent;
+    transform: rotate(5deg);
+    margin-top: 60px;
+    margin-left: -20px;
+}
+
+.short-break {
+    background-color: transparent;
+    transform: rotate(5deg);
+    margin-top: -10px;
+}
