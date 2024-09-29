@@ -13,7 +13,7 @@
     font-family: Rye;
     font-size: 70px;
     border: 0px;
-    margin: 0px;
+    margin-top: 200px;
 }
 
 li {
@@ -72,6 +72,8 @@ input[type="checkbox"]:checked + label {
     font-size: 20px;
     margin-left: 75px;
     color: rgb(50, 4, 4);
+    margin-top: 0px;
+    background-color: rgb(247, 226, 198);
 }
 
 button {
@@ -81,6 +83,7 @@ button {
     border-radius: 8px;
     font-size: 20px;
     margin: 30px;
+    margin-top: 0px;
 }
 
 .header {
@@ -151,7 +154,7 @@ button {
     font-size: 10em;
     font-family: Rye;
     text-align: center;
-    margin-left: 185px;
+    margin-left: 135px;
     margin-top: 250px;
     margin-bottom: 0px;
 }
@@ -234,7 +237,7 @@ body{
     width: 15%;
     background-color: transparent;
     border-color: white;
-    color: white;
+    color:white;
     transform: rotate(5deg);
 }
 
