@@ -6,7 +6,7 @@
 
 // }, 1000);
 
-const startTiming = 20
+const startTiming = 25
 let time = startTiming * 60
 
 const count = document.getElementById("timer")
@@ -18,7 +18,8 @@ function updateTimer(){
 
     //condition ? do this : do that
     seconds  = seconds < 10 ?  '0' + seconds : seconds
-    count.innerHTML = '${minutes}:${seconds}'
+    count.innerHTML = `${minutes}:${seconds}`
     time--
-
 }
+
+updateTimer()
