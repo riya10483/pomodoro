@@ -167,8 +167,6 @@ button {
 }
 
 .short-break {
-    font-family: "Rye", serif;
-    font-size: 35px;
     background-color: transparent;
     transform: rotate(5deg);
     margin-top: -10px;
