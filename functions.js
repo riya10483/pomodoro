@@ -8,6 +8,7 @@
 
 const startTiming = 25
 let time = startTiming * 60
+let paused = false;
 
 const count = document.getElementById("timer")
 
@@ -62,4 +63,22 @@ function addItem() {
     } else {
         alert("Please enter a valid item.");
     }
+}
+
+function pause() {
+    const pauseButton = document.querySelector('.control-buttons button');
+    paused = !paused;
+
+    if(paused) {
+        clearInterval(interval);
+        pauseButton.textContent = 'Resume';
+    }
+    else {
+        startTimer();
+        pauseButton.textContent = 'Pause';
+    }
+}
+
+function startTimer() {
+    interval = setInterval(updateTimer, 1000);
 }
