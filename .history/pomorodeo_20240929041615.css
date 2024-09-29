@@ -135,6 +135,7 @@ button {
     text-align: center;
     margin-left: 50px;
     margin-top: 250px;
+    color:rgb(50, 4, 4);
 }
 
 .image-and-text {
@@ -163,61 +164,4 @@ body{
     font-weight: 400;
     font-style: normal; 
     font-size: 30px;
-}
-
-.sign-labels {
-    margin-top: -750px;
-    margin-bottom: 0px;
-}
-
-#time1 {
-    margin-left: 150px;
-    background-color: transparent;
-    border-color: white;
-    width: 15%;
-    transform: rotate(-5deg);
-}
-
-#submit1 {
-    margin-left: -20px;
-    margin-top: -60px;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    transform: rotate(-5deg);
-    border: none;
-    padding-bottom: 10px;
-}
-
-#time2 {
-    margin-left: 150px;
-    margin-top: 180px;
-    width: 15%;
-    background-color: transparent;
-    border-color: white;
-    transform: rotate(5deg);
-}
-
-#submit2 {
-    margin-left: -20px;
-    margin-top: 0px;
-    transform: rotate(5deg);
-    border: none;
-    padding-bottom: 10px;
-}
-
-#time3 {
-    margin-left: 150px;
-    margin-top: 170px;
-    width: 15%;
-    background-color: transparent;
-    border-color: white;
-    transform: rotate(5deg);
-}
-
-#submit3 {
-    margin-left: -20px;
-    margin-top: -40px;
-    transform: rotate(5deg);
-    border: none;
-    padding-bottom: 10px;
 }
