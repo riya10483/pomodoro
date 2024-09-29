@@ -30,8 +30,6 @@
     padding-right: 200px;
 }
 
-
-
 #timer {
     font-size: 50px;
     font-family: verdana;
@@ -39,3 +37,35 @@
     
 }
 
+.image-and-text {
+    display: flex;
+    align-items: left;
+    margin-bottom: 0;
+} 
+
+.sign-labels {
+    font-family: "Rye", serif;
+    color: rgb(247, 226, 198);
+    font-size: 35px;
+    text-align: left;
+    margin-top: -830px;
+    margin-left: 145px;
+}
+
+.focus-session {
+    background-color: transparent;
+    transform: rotate(-5deg);
+}
+
+.long-break {
+    background-color: transparent;
+    transform: rotate(5deg);
+    margin-top: 60px;
+    margin-left: -20px;
+}
+
+.short-break {
+    background-color: transparent;
+    transform: rotate(5deg);
+    margin-top: -10px;
+}
