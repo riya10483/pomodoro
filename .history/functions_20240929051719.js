@@ -29,9 +29,7 @@ function updateTimer(){
     }
 }
 
-updateTimer();
-
-
+updateTimer()
 
 let itemCount = 3;
 
@@ -89,17 +87,17 @@ function chooseTime() {
     const focusLength = document.getElementById('time1').value;
     const longBreak = document.getElementById('time2').value;
     const shortBreak = document.getElementById('time3').value;
-    // for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < 4; i++) {
         // focus session
         startTiming = focusLength;
         time = startTiming * 60;
         updateTimer();
+
         // switch to short break once 0
         if (time <= -1) {
-            // clearInterval(interval)
+            clearInterval(interval)
             startTiming = shortBreak;
             time = startTiming * 60;
-            updateTimer();
-        }
-    // }
+            }
+    }
 }

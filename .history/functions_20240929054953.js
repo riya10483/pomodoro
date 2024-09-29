@@ -22,14 +22,23 @@ function updateTimer(){
     count.innerHTML = `${minutes}:${seconds}`
     time--
     
+    // if (time <= -1)
+    // {
+    //     clearInterval(interval)
+    //     time = -1
+    // }
+}
+
+function checkTimeZero(){
     if (time <= -1)
-    {
-        clearInterval(interval)
-        time = -1
-    }
+        {
+            clearInterval(interval)
+            time = -1
+        }
 }
 
 updateTimer();
+checkTimeZero();
 
 
 
@@ -94,6 +103,7 @@ function chooseTime() {
         startTiming = focusLength;
         time = startTiming * 60;
         updateTimer();
+        checkTimeZero();
         // switch to short break once 0
         if (time <= -1) {
             // clearInterval(interval)

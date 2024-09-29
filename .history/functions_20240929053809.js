@@ -22,16 +22,23 @@ function updateTimer(){
     count.innerHTML = `${minutes}:${seconds}`
     time--
     
+    // if (time <= -1)
+    // {
+    //     clearInterval(interval)
+    //     time = -1
+    // }
+}
+
+function checkTimeZero(){
     if (time <= -1)
-    {
-        clearInterval(interval)
-        time = -1
-    }
+        {
+            clearInterval(interval)
+            time = -1
+        }
 }
 
 updateTimer();
-
-
+checkTimeZero();
 
 let itemCount = 3;
 

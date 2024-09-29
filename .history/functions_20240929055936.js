@@ -25,7 +25,7 @@ function updateTimer(){
     if (time <= -1)
     {
         clearInterval(interval)
-        time = -1
+        // time = -1
     }
 }
 

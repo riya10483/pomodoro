@@ -20,6 +20,7 @@ li {
     font-size: 30px;
     font-family: "Shadows Into Light";
     list-style: none;
+    display: flex;
 }
 
 input {
@@ -79,12 +80,8 @@ button {
     margin: 30px;
 }
 
-.close {
-    margin: 0px;
-    margin-right: 60px;
-}
 
-.listItem {
+.close {
     display: flex;
-    justify-content: space-between;
+    margin
 }

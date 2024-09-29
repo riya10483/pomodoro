@@ -81,10 +81,9 @@ button {
 
 .close {
     margin: 0px;
-    margin-right: 60px;
 }
 
 .listItem {
     display: flex;
-    justify-content: space-between;
+    ju: space-between;
 }

@@ -29,9 +29,7 @@ function updateTimer(){
     }
 }
 
-updateTimer();
-
-
+updateTimer()
 
 let itemCount = 3;
 

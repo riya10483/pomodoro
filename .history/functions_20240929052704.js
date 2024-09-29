@@ -29,9 +29,7 @@ function updateTimer(){
     }
 }
 
-updateTimer();
-
-
+updateTimer()
 
 let itemCount = 3;
 
@@ -94,9 +92,12 @@ function chooseTime() {
         startTiming = focusLength;
         time = startTiming * 60;
         updateTimer();
+        while (true) {
+            console.log(time)
+        }
         // switch to short break once 0
         if (time <= -1) {
-            // clearInterval(interval)
+            clearInterval(interval)
             startTiming = shortBreak;
             time = startTiming * 60;
             updateTimer();

@@ -79,12 +79,8 @@ button {
     margin: 30px;
 }
 
-.close {
-    margin: 0px;
-    margin-right: 60px;
-}
 
-.listItem {
+.close {
     display: flex;
-    justify-content: space-between;
+    margin
 }
