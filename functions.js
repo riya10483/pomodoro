@@ -17,12 +17,12 @@ let interval = setInterval(updateTimer, 1000)
 
 function updateTimer(){
 
-    const minutes = Math.floor(startTiming/60)
+    let minutes = Math.floor(startTiming/60)
     let seconds = startTiming % 60 
 
     //condition ? do this : do that
     seconds  = seconds < 10 ?  '0' + seconds : seconds
-    
+    minutes = minutes < 10 ? '0' + minutes : minutes
     timerText = `${minutes}:${seconds}`
     
     
@@ -30,7 +30,7 @@ function updateTimer(){
     {
         clearInterval(interval)
         clearInterval(interval2)
-        count.innerHTML = "0:00"
+        count.innerHTML = "00:00"
     }
 
 
@@ -111,13 +111,21 @@ async function chooseTime() {
                 //document.getElementById('status').value = "Focus Session";
 
         while(true){
+        document.getElementById("status").textContent = "Focus Session";
         await countdown(focusLength)
+        document.getElementById("status").textContent = "Short Break";
         await countdown(shortBreak)
+        document.getElementById("status").textContent = "Focus Session";
         await countdown(focusLength)
+        document.getElementById("status").textContent = "Short Break";
         await countdown(shortBreak)
+        document.getElementById("status").textContent = "Focus Session";
         await countdown(focusLength)
+        document.getElementById("status").textContent = "Short Break";
         await countdown(shortBreak)
+        document.getElementById("status").textContent = "Focus Session";
         await countdown(focusLength)
+        document.getElementById("status").textContent = "Long Break";
         await countdown(longBreak)
 }
     }

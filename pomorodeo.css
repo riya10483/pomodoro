@@ -165,7 +165,7 @@ button {
     font-size: 10em;
     font-family: Rye;
     text-align: center;
-    margin-left: 135px;
+    margin-left: 125px;
     margin-top: 250px;
     margin-bottom: 0px;
 }
@@ -184,11 +184,18 @@ body{
     background-size: cover;
 }
 
+
 .control-buttons { 
-    margin-left: 900px; 
-    margin-top: -440px;
-    margin-bottom: 300px; 
-    justify-content: space-evenly; 
+    
+    margin: -440px auto 300px;
+    margin-left: 550px; 
+    /* margin-top;
+    margin-bottom: 300px;  */
+    justify-content: center;
+    text-align: center; 
+    align-items: center;
+    display: flex;
+    
 } 
 
 .control-buttons button {
