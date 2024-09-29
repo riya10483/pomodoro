@@ -78,6 +78,30 @@ button {
     font-size: 20px;
     margin: 30px;
 }
+
+/* #cowboy-hat {
+    margin-left: 240px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: -120px;
+    background-color: transparent;
+}
+
+#cowboy-hat-2 {
+    margin-left: 1125px;
+    padding-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -100px;
+    background-color: transparent;
+} */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .title {
     font-family: "Rye", serif;
     font-size: 100px;
