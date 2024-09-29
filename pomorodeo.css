@@ -201,3 +201,9 @@ body{
     font-style: normal; 
     font-size: 30px;
 }
+
+#choose-time {
+    padding-top: -800px;
+    margin-left: 15px;
+    width: 15%;
+}
