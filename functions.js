@@ -13,8 +13,6 @@ let paused = false;
 const count = document.getElementById("timer")
 
 let interval = setInterval(updateTimer, 1000)
-
-
 function updateTimer(){
     const minutes = Math.floor(time/60)
     let seconds = time % 60
@@ -86,20 +84,5 @@ function startTimer() {
 }
 
 function chooseTime() {
-    const newTime = document.getElementById('choose-time').value;
-    if(!isNaN(newTime) && newTime > 0)
-    {
-        //enteredTime = parseInt(newTime);
-        //minutes = enteredTime;
-        minutes = newTime;
-        seconds = 0;
-        paused = false;
-        //const timerElement = document.getElementById('interval');
-        startTiming = minutes;
-        //interval.textContent = formatTime(minutes, seconds);
-        startTimer();
-    }
-    else {
-        alert("Please enter a valid positive number.");
-    }
+    
 }
