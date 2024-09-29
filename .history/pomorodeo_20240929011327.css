@@ -154,3 +154,9 @@ button {
     margin-top: 60px;
     margin-left: -20px;
 }
+
+.short-break {
+    background-color: transparent;
+    transform: rotate(5deg);
+    margin-top: -10px;
+}

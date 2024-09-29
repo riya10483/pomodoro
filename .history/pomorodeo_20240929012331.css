@@ -2,8 +2,6 @@
     background-color:burlywood;
     border: 0px;
     margin: 0px;
-    font-family: "Shadows Into Light";
-    font-size: 30px;
 }
 #todo {
     color:rgb(247, 226, 198);
@@ -68,6 +66,7 @@ input[type="checkbox"]:checked + label {
     font-size: 20px;
     margin-left: 75px;
     color: rgb(50, 4, 4);
+    
 }
 
 button {

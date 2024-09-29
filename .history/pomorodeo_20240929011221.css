@@ -1,10 +1,10 @@
-* {
+/* * {
     background-color:burlywood;
     border: 0px;
     margin: 0px;
     font-family: "Shadows Into Light";
     font-size: 30px;
-}
+} 
 #todo {
     color:rgb(247, 226, 198);
     padding: 10px;
@@ -153,4 +153,10 @@ button {
     transform: rotate(5deg);
     margin-top: 60px;
     margin-left: -20px;
+}
+
+.short-break {
+    background-color: transparent;
+    transform: rotate(5deg);
+    margin-top: -10px;
 }
