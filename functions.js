@@ -82,3 +82,7 @@ function pause() {
 function startTimer() {
     interval = setInterval(updateTimer, 1000);
 }
+
+function chooseTime() {
+    
+}
