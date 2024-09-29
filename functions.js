@@ -6,7 +6,7 @@
 
 // }, 1000);
 
-let startTiming = 25
+let startTiming = 0
 let time = startTiming * 60
 let paused = false;
 let time1,time2, time3
@@ -14,6 +14,7 @@ let time1,time2, time3
 const count = document.getElementById("timer")
 
 let interval = setInterval(updateTimer, 1000)
+
 function updateTimer(time1, time2, time3){
     const minutes = Math.floor(time/60)
     let seconds = time % 60
@@ -28,6 +29,8 @@ function updateTimer(time1, time2, time3){
         clearInterval(interval)
         time = -1
     }
+
+
 }
 
 
@@ -91,13 +94,10 @@ function chooseTime() {
     startTiming = focusLength;
     time = startTiming * 60
     if(focusLength!= 0 && longBreak != 0 && shortBreak != 0){
-        updateTimer(focusLength, shortBreak, longBreak)
+        //updateTimer(focusLength, shortBreak, longBreak)
+        startTimer()
     }
 }
 
-//this loop will run for 4 focus sessions, with a short break in between each and a long break at the end(put outside the loop)
-for(let i=0; i < 4; i++){
 
-
-}
 
