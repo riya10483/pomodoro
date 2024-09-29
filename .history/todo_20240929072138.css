@@ -79,12 +79,4 @@ button {
     margin: 30px;
 }
 
-.close {
-    margin: 0px;
-    margin-right: 60px;
-}
-
-.listItem {
-    display: flex;
-    justify-content: space-between;
-}
+.close
