@@ -90,4 +90,5 @@ function chooseTime() {
     startTiming = focusLength;
     time = startTiming * 60
     updateTimer();
+
 }

@@ -89,5 +89,6 @@ function chooseTime() {
     const shortBreak = document.getElementById('time3').value;
     startTiming = focusLength;
     time = startTiming * 60
-    updateTimer();
+    
+
 }
