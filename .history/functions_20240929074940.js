@@ -94,10 +94,7 @@ function chooseTime() {
     if(focusLength!= 0 && longBreak != 0 && shortBreak != 0){
         updateTimer(focusLength, shortBreak, longBreak)
     }
-    if (time <= -1) {
-        startTiming = shortBreak;
-        time = startTiming * 60;
-    }
+    
 }
 
 //this loop will run for 4 focus sessions, with a short break in between each and a long break at the end(put outside the loop)

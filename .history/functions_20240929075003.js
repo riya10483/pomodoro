@@ -95,8 +95,7 @@ function chooseTime() {
         updateTimer(focusLength, shortBreak, longBreak)
     }
     if (time <= -1) {
-        startTiming = shortBreak;
-        time = startTiming * 60;
+        stat
     }
 }
 

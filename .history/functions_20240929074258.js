@@ -89,20 +89,6 @@ function chooseTime() {
     const longBreak = document.getElementById('time2').value;
     const shortBreak = document.getElementById('time3').value;
     startTiming = focusLength;
-    time = startTiming * 60;
-
-    if(focusLength!= 0 && longBreak != 0 && shortBreak != 0){
-        updateTimer(focusLength, shortBreak, longBreak)
-    }
-    if (time <= -1) {
-        startTiming = shortBreak;
-        time = startTiming * 60;
-    }
+    time = startTiming * 60
+    updateTimer();
 }
-
-//this loop will run for 4 focus sessions, with a short break in between each and a long break at the end(put outside the loop)
-for(let i=0; i < 4; i++){
-
-
-}
-

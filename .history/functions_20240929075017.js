@@ -96,7 +96,7 @@ function chooseTime() {
     }
     if (time <= -1) {
         startTiming = shortBreak;
-        time = startTiming * 60;
+        time = star
     }
 }
 
