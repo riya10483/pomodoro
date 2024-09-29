@@ -99,6 +99,15 @@ button {
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     transform: scaleX(-1);
+    background-color: rgb(50, 4, 4);
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+#cowboy-hat-2 {
+    background-color: rgb(50, 4, 4);
+    padding-top:5px;
+    padding-bottom:5px;
 }
 
 .title {
@@ -117,10 +126,12 @@ button {
 
 .heading {
     font-family: "Peralta", serif;
-    font-size: 30px;
+    font-size: 37px;
     margin-top: 5px;
     text-align: center;
     text-shadow: 2px 2px brown;
+    color: rgb(50, 4, 4);
+
 }
 
 .paragraph {
