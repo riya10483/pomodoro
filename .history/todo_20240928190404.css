@@ -7,7 +7,7 @@
     background-color:rgb(50, 4, 4);
     text-align: center;
     font-family: Rye;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 li {
@@ -19,10 +19,5 @@ li {
 input {
     width: 30px;
     height: 30px;
-    margin: 15px 30px;
-}
-
-.checked {
-    text-decoration: line-through;
-    color:rgb(176, 141, 94);
+    margin: 15px 20px;
 }

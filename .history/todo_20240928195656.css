@@ -23,6 +23,5 @@ input {
 }
 
 .checked {
-    text-decoration: line-through;
-    color:rgb(176, 141, 94);
+    text-decoration: ;
 }

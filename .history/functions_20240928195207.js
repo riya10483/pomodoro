@@ -14,9 +14,6 @@ function myFunction() {
 
 function strikeThrough(checkbox) {
     if (checkbox.checked) {
-        checkbox.parentElement.classList.add('checked');
-    }
-    else {
-        checkbox.parentElement.classList.remove('checked');
+        document.getElementById("checklist").style.textDecoration="line-through";
     }
 }

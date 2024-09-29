@@ -17,6 +17,6 @@ function strikeThrough(checkbox) {
         checkbox.parentElement.classList.add('checked');
     }
     else {
-        checkbox.parentElement.classList.remove('checked');
+        
     }
 }

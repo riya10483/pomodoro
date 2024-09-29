@@ -12,11 +12,8 @@ function myFunction() {
     console.log("hello")
 }
 
-function strikeThrough(checkbox) {
+function strikeThrough() {
     if (checkbox.checked) {
-        checkbox.parentElement.classList.add('checked');
-    }
-    else {
-        checkbox.parentElement.classList.remove('checked');
+        document.getElementById("checklist").style.color="blue"
     }
 }

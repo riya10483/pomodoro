@@ -21,8 +21,3 @@ input {
     height: 30px;
     margin: 15px 30px;
 }
-
-.checked {
-    text-decoration: line-through;
-    color:rgb(176, 141, 94);
-}
