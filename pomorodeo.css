@@ -151,7 +151,7 @@ button {
     font-size: 10em;
     font-family: Rye;
     text-align: center;
-    margin-left: 150px;
+    margin-left: 185px;
     margin-top: 250px;
     margin-bottom: 0px;
 }
@@ -193,6 +193,7 @@ body{
     margin-left: 150px;
     background-color: transparent;
     border-color: white;
+    color: white;
     width: 15%;
     transform: rotate(-5deg);
 }
@@ -215,6 +216,7 @@ body{
     width: 15%;
     background-color: transparent;
     border-color: white;
+    color: white;
     transform: rotate(5deg);
 }
 
@@ -232,6 +234,7 @@ body{
     width: 15%;
     background-color: transparent;
     border-color: white;
+    color: white;
     transform: rotate(5deg);
 }
 
@@ -244,9 +247,6 @@ body{
 }
 
 #sign-behind-clock {
-    /*margin-left: 700px;
-    margin-top: -2000px;
-    padding-top: 0px;*/
     position: absolute;
     top: 650px;
     left: 700px;
