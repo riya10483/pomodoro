@@ -1,10 +1,10 @@
-* {
+/* {
     background-color:burlywood;
     border: 0px;
     margin: 0px;
     font-family: "Shadows Into Light";
     font-size: 30px;
-}
+}*/
 #todo {
     color:rgb(247, 226, 198);
     padding: 10px;
@@ -175,7 +175,10 @@ button {
     margin-top: -10px;
 }
 
-.top-align {
-    display: flex;
-    align-items:top;
+body{
+    background-image: url(blurbackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }

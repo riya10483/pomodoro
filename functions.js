@@ -11,7 +11,7 @@ let time = startTiming * 60
 
 const count = document.getElementById("timer")
 
-setInterval(updateTimer, 1000)
+let interval = setInterval(updateTimer, 1000)
 function updateTimer(){
     const minutes = Math.floor(time/60)
     let seconds = time % 60
@@ -20,6 +20,12 @@ function updateTimer(){
     seconds  = seconds < 10 ?  '0' + seconds : seconds
     count.innerHTML = `${minutes}:${seconds}`
     time--
+    
+    if (time <= -1)
+    {
+        clearInterval(interval)
+        time = -1
+    }
 }
 
 updateTimer()
